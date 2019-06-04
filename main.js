@@ -167,3 +167,9 @@ const createStudentComponent = function (studentObject) {
 for(let i = 0; i < studentArray.length; i++){
     studentContainer.innerHTML += createStudentComponent(studentArray[i]);
 }
+
+
+// Using the .forEach() method:
+studentArray.forEach(function(studentObject) {
+    studentContainer.innerHTML += createStudentComponent(studentObject);
+})
