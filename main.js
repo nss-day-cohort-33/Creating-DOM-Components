@@ -22,7 +22,9 @@ const createLeahComponent = function () {
     `
 }
 
-// Now I want to put this student that I created inside of the createLeahComponent function to the DOM!
+/*
+     Now I want to put this student that I created inside of the createLeahComponent function to the DOM!
+*/
 // Store a reference to an existing HTML element, so we have somewhere to put Leah:
 const studentContainer = document.querySelector("#container")
 
@@ -117,6 +119,7 @@ const studentArray = [
     Our array of student objects all have similar properties on them: name, info, subject, and score.
     We can create arguments in our function that correspond with our student objects, since that's what we want to print to the DOM.
 */
+
 // const createStudentComponent = function (name, subject, info) {
 //     return `
 //     <div class="student">
