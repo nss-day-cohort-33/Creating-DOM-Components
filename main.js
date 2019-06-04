@@ -34,8 +34,11 @@ studentContainer.innerHTML += createLeahComponent();
 
 // Now let's make this D-Y-N-A-M-I-C 😎
 /*
-    Below I have an array of students, and I want to create HTML for ALL of them. But I don't want to write 12 more functions that all do the EXACT. SAME. THING. I have to keep it D-R-Y!
-    I need to refactor my createStudentComponent function so it can create a different student every time I call it (right now it only creates the ONE, SAME student).
+    Below I have an array of students, and I want to create HTML for ALL of them.
+    But I don't want to write 12 more functions that all do the EXACT. SAME. THING.
+    I have to keep it D-R-Y!
+    I need to refactor my createStudentComponent function so it can create a different
+     student every time I call it (right now it only creates the ONE, SAME student).
 */
 
 // An array of students
