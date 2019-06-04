@@ -1,0 +1,34 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.pushRight {
+    margin-left: auto;
+}
+
+.xx-large {
+    font-size: 3em;
+}
+
+.bordered {
+    border-width: 1px;
+    border-color: goldenrod;
+    border-style: solid;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.section--padded {
+    padding: 10px;
+}
+
+.passing {
+    color: green;
+}
+
+.failing {
+    color: orange;
+}
